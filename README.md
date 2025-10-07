@@ -1,30 +1,73 @@
-# React + Vite
+# Developer Rono Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist and responsive **Notes App** built with **React + Vite**.  
+It allows users to create, view, edit, and delete notes — with persistent storage and dark mode support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+-  Add new notes (title + content)
+-  Edit existing notes
+-  Delete notes instantly
+-  Auto-saves notes using **localStorage**
+-  Toggle between **Light / Dark Mode**
+-  Minimalist, clean design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React (Vite)
+- **Styling:** Custom CSS
+- **State Management:** React `useState`, `useEffect`
+- **Storage:** Browser Local Storage
 
-# RSimple notes App
+---
 
-A minimalist notes app built with **React + Vite** that lets you:
-- Add notes (title + content)
-- Edit and delete notes
-- Persist notes in localStorage
-- Toggle between dark and light mode
+##  Setup Instructions
 
-## Setup Steps
-
-1. Clone this repository:
+1. **Clone** this repository:
    ```bash
-   git clone https://github.com/<developerrono>/<>.git
+   git clone https://github.com/developerrono/notesapp.git
+
+Navigate to the project folder:
+
+cd "submission/Rono Kibet"
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open in your browser at:
+
+http://localhost:5173
+
+ Project Structure
+submission/
+└── Rono Kibet/
+    ├── src/
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   ├── styles.css
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
+
+ Notes / Future Improvements
+
+Add search or filter functionality for notes
+
+Use a backend API (Node or Laravel) for persistence
+
+Add animations and toast notifications for actions
+
+Improve accessibility and keyboard shortcuts
